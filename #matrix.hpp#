@@ -1,0 +1,25 @@
+//Daniel Thompson
+#ifndef _MATRIX
+#define _MATRIX
+#include<iostream>
+
+class Matrix{
+
+public:
+  Matrix(int x, int y);
+  ~Matrix();
+  /*
+  int size();
+  bool insert(int v);
+  bool remove(int v);
+  */
+
+private:
+  int *matrix;
+  int *array;
+  int col;
+  int row;
+
+  #endif
+
+  
